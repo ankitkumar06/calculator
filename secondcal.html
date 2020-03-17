@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<script type="text/javascript">
+		function btnadd(){
+			document.myform.txt1.value+="+";
+		}
+		function btnsub(){
+			document.myform.txt1.value+="-";
+		}
+		function btnmul(){
+			document.myform.txt1.value+="*";
+		}
+		function btnmod(){
+			document.myform.txt1.value+="%"
+		}
+		function btndiv(){
+			document.myform.txt1.value+="/";
+		}
+		function btnclear(){
+			document.myform.txt1.value=" ";
+		}
+	</script>
+</head>
+<body>
+	<div class="edit">
+	<h1>Calculator</h1>
+<form name="myform" id="form">
+	<input type="text" name="txt1" id="t1" placeholder="0"><br>
+	<div class="btn1">
+	<input type="button" name="" value="9" id="b1" onclick="document.myform.txt1.value+='9'">
+	<input type="button" name="" value="8" id="b2" onclick="document.myform.txt1.value+='8'">
+	<input type="button" name="" value="7" id="b3" onclick="document.myform.txt1.value+='7'">
+	<input type="button" name="" value="+" id="b4" onclick="btnadd()"><br>
+	<input type="button" name="" value="6" id="b5" onclick="document.myform.txt1.value+='6'">
+	<input type="button" name="" value="5" id="b6" onclick="document.myform.txt1.value+='5'">
+	<input type="button" name="" value="4" id="b7" onclick="document.myform.txt1.value+='4'">
+	<input type="button" name="" value="-" id="b8" onclick="btnsub()"><br>
+	<input type="button" name="" value="3" id="b9" onclick="document.myform.txt1.value+='3'">
+	<input type="button" name="" value="2" id="b10" onclick="document.myform.txt1.value+='2'">
+	<input type="button" name="" value="1" id="b11" onclick="document.myform.txt1.value+='1'">
+	<input type="button" name="" value="*" id="b12" onclick="btnmul()"><br>
+	<input type="button" name="" value="0" id="b13" onclick="document.myform.txt1.value+='0'">
+	<input type="button" name="" value="/" id="b14" onclick="btndiv()">
+	<input type="button" name="" value="%" id="b15" onclick="btnmod()">
+	<input type="button" name="" value="." id="b16" onclick="document.myform.txt1.value+='.'"><br>
+	<input type="button" name="" value="=" id="b17" onclick="document.myform.txt1.value=eval(document.myform.txt1.value)">
+	<input type="button" name="" value="C" id="b18" onclick="btnclear()"></div>
+</form></div>
+</body>
+</html>

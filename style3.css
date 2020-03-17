@@ -1,0 +1,44 @@
+
+body{
+	background: #999;
+}
+.edit{
+	text-align: center;
+    border-radius: 40px;
+	margin-top: 15%;
+	background: green;
+	color: #fff;
+	width: 300px;
+	height: 330px;
+	margin-left: 40%;
+}
+#t1{
+	text-align: right;
+	width: 230px;
+	height: 30px;
+	border-radius: 20px;
+	background: rgb(0,0,8);
+	font-size: 20px;
+	color: white;
+}
+.btn1{
+	margin-left: 30px;
+	width: 220px;
+	height: 260px;
+	padding: 10px;
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b11,#b12,#b13,#b14,#b15,#b16{
+	width: 50px;
+	height: 40px;
+	background: rgb(0,0,8);
+	color: #fff;
+	border-radius: 40px;
+	margin:1px;
+}
+#b17,#b18{
+	width: 100px;
+	height: 40px;
+	background: rgb(0,0,8);
+	color: #fff;
+	border-radius: 40px;
+}
